@@ -1,1 +1,18 @@
-@import "./reset.css"
+@import "./reset.css";
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:regular,500,600,700);
+
+html, body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+    max-height: 1204px;
+    min-height: 100vh;
+
+    background-color: rgba(88, 97, 105, 1);
+    background-image: url('/icon/title.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
